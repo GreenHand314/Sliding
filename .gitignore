@@ -1,0 +1,41 @@
+# 忽略 Documentation 目录下的编译文件
+Documentation/*.aux
+Documentation/*.bbl
+Documentation/*.blg
+Documentation/*.brf
+Documentation/*.idx
+Documentation/*.ilg
+Documentation/*.ind
+Documentation/*.lof
+Documentation/*.lot
+Documentation/*.out
+Documentation/*.toc
+Documentation/*.acn
+Documentation/*.acr
+Documentation/*.alg
+Documentation/*.glg
+Documentation/*.glo
+Documentation/*.gls
+Documentation/*.ist
+Documentation/*.fls
+Documentation/*.log
+Documentation/*.fdb_latexmk
+Documentation/*.snm
+Documentation/*.synctex.gz
+Documentation/*.nav
+
+# XeLaTeX、LuaLaTeX 额外文件
+Documentation/*.xdv
+
+# 临时备份文件
+Documentation/*~
+Documentation/*.bak
+Documentation/*.backup
+Documentation/*.tmp
+
+# VS Code 和 LaTeX Workshop 插件
+.vscode/
+Documentation/*.synctex*
+
+# Windows
+Thumbs.db
